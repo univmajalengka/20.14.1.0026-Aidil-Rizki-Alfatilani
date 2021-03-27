@@ -1,0 +1,25 @@
+{Nama         : Aidil Rizki Alfatilani}
+{NPM          : 20.14.1.0026}
+{Nama Program : luas_persegi_panjang}
+
+program luas_persegi_panjang;
+uses crt;
+
+var
+panjang, lebar:integer;
+
+begin
+writeln('program luas persegi panjang');
+writeln('============================');
+write('masukan nilai panjang : ');
+readln(panjang);
+write('masukan nilai lebar');
+readln(lebar);
+writeln('');
+writeln('luas= panjang x lebar');
+writeln('');
+writeln('luas = ',panjang * lebar);
+
+readln;
+
+end.
